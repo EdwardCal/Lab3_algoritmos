@@ -18,7 +18,11 @@ public class DivideAndConquerTest {
         for (int i = 0; i < 20; i++) {
             int value = util.Utility.random(99);
             //java.util.Arrays
-            //int indexArrays =
+            int indexArrays = java.util.Arrays.binarySearch(vector.getData(), value);
+            System.out.println(indexArrays >=0
+                    ?"java.util.Arrays BS...The element ["+value+"] exists at position "+indexArrays
+                    :"java.util.Arrays BS...The element ["+value+"] does not exist in vector"
+            );
 
         }
     }
