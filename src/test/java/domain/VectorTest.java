@@ -17,5 +17,6 @@ public class VectorTest {
                 ?"Vector is empty"
                 :"Vector is not empty"
         );
+        System.out.println(vector.contains(1));
     }
 }
