@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="I.S.2023.APA.IF-3001.021-Lab3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/VectorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ucr/lab3/vector.fxml" afterDir="false" />
+    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="-Se coloca la interfaz de vector y algunos de sus metodos.&#10;*Faltan algunos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/domain/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Vector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/domain/VectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/VectorTest.java" afterDir="false" />
@@ -80,7 +78,7 @@
       <recent name="domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloApplication">
+  <component name="RunManager" selected="TestNG.VectorTest.testVector">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ucr.lab3.HelloApplication" />
       <module name="lab3" />
@@ -127,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
         <item itemvalue="TestNG.VectorTest.testVector" />
+        <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680131042989</updated>
       <workItem from="1680284229481" duration="665000" />
-      <workItem from="1680285016135" duration="5176000" />
+      <workItem from="1680285016135" duration="9057000" />
     </task>
     <task id="LOCAL-00001" summary="I.S.2023.APA.IF-3001.021-Lab3">
       <created>1680133278015</created>
@@ -164,15 +162,41 @@
       <option name="project" value="LOCAL" />
       <updated>1680138805008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-Se coloca la interfaz de vector y algunos de sus metodos.&#10;*Faltan algunos">
+      <created>1680290737766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680290737766</updated>
+    </task>
+    <task id="LOCAL-00005" summary="-Se coloca la interfaz de vector y algunos de sus metodos.&#10;*Faltan algunos">
+      <created>1680292029462</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680292029462</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="I.S.2023.APA.IF-3001.021-Lab3" />
-    <option name="LAST_COMMIT_MESSAGE" value="I.S.2023.APA.IF-3001.021-Lab3" />
+    <MESSAGE value="-Se coloca la interfaz de vector y algunos de sus metodos.&#10;*Faltan algunos" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Se coloca la interfaz de vector y algunos de sus metodos.&#10;*Faltan algunos" />
   </component>
 </project>
