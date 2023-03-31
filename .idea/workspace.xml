@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="-Se colocan mas metodos de vector">
+    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Vector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/VectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/VectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DynamicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DynamicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ucr/lab3/DynamicProblem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ucr/lab3/DynamicProblem.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/DynamicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/DynamicTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +36,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2NhzL4mOXj743KtV8nAeGjaMXye" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,23 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;TestNG&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -78,7 +72,7 @@
       <recent name="domain" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VectorTest.testVector">
+  <component name="RunManager" selected="Application.HelloApplication">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ucr.lab3.HelloApplication" />
       <module name="lab3" />
@@ -125,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VectorTest.testVector" />
         <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="TestNG.VectorTest.testVector" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680131042989</updated>
       <workItem from="1680284229481" duration="665000" />
-      <workItem from="1680285016135" duration="13478000" />
+      <workItem from="1680285016135" duration="5176000" />
     </task>
     <task id="LOCAL-00001" summary="I.S.2023.APA.IF-3001.021-Lab3">
       <created>1680133278015</created>
@@ -162,49 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1680138805008</updated>
     </task>
-    <task id="LOCAL-00004" summary="-Se coloca la interfaz de vector y algunos de sus metodos.&#10;*Faltan algunos">
-      <created>1680290737766</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1680290737766</updated>
-    </task>
-    <task id="LOCAL-00005" summary="-Se coloca la interfaz de vector y algunos de sus metodos.&#10;*Faltan algunos">
-      <created>1680292029462</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1680292029462</updated>
-    </task>
-    <task id="LOCAL-00006" summary="-Se colocan mas metodos de vector">
-      <created>1680294672196</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1680294672196</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="I.S.2023.APA.IF-3001.021-Lab3" />
-    <MESSAGE value="-Se coloca la interfaz de vector y algunos de sus metodos.&#10;*Faltan algunos" />
-    <MESSAGE value="-Se colocan mas metodos de vector" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Se colocan mas metodos de vector" />
+    <option name="LAST_COMMIT_MESSAGE" value="I.S.2023.APA.IF-3001.021-Lab3" />
   </component>
 </project>

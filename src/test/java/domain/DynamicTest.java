@@ -9,7 +9,7 @@ public class DynamicTest {
         int n = 5;
         long factorial = dm.factorial(n);
         System.out.println("El factorial de " + n + " es " + factorial);
-        int p = 10;
+        int p = 6;
         long result=0;
         for (int i = 0; i <= p; i++) {
             result= dm.fibonacci(i);
