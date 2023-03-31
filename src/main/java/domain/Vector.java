@@ -78,12 +78,17 @@ public class Vector implements VectorList{
 
     @Override
     public int indexOf(Object element) {
+        for (int i = 0; i < counter; i++) {
+            if(data[i]==(int)element){
+                return i;
+            }
+        }
         return 0;
     }
 
     @Override
     public Object get(int index) {
-        return null;
+        return data[index];
     }
 
     public int getN() {
