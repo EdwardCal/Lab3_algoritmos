@@ -18,5 +18,6 @@ public class VectorTest {
                 :"Vector is not empty"
         );
         System.out.println(vector.contains(1));
+        System.out.println("\nSORTED VECTOR..."+vector.toString());
     }
 }
