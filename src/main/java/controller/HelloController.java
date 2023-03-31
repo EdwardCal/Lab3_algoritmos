@@ -46,7 +46,7 @@ public class HelloController {
 
     @FXML
     void dynamicOnAction(ActionEvent event) {
-        loadPage("dynamic.fxml");
+        loadPage("DynamicProblem.fxml");
     }
 
     @FXML
