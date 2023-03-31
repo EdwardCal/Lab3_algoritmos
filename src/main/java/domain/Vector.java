@@ -29,6 +29,11 @@ public class Vector implements VectorList{
 
     @Override
     public boolean contains(Object element) {
+        for (int i = 0; i < counter; i++) {
+            if(data[i]==(int)element){
+                return true;
+            }
+        }
         return false;
     }
 
