@@ -40,12 +40,12 @@
                   <Font name="Arial" size="22.0" />
                </font>
             </Text>
-            <Button fx:id="ClearButton" layoutX="530.0" layoutY="348.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="233.0" text="Clear">
+            <Button layoutX="530.0" layoutY="348.0" mnemonicParsing="false" onAction="#ClearButtonOnAction" prefHeight="50.0" prefWidth="233.0" text="Clear">
                <font>
                   <Font name="Arial" size="28.0" />
                </font>
             </Button>
-            <Button fx:id="CalculateButton" layoutX="202.0" layoutY="348.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="223.0" text="Calculate">
+            <Button layoutX="202.0" layoutY="348.0" mnemonicParsing="false" onAction="#CalculateButtonOnAction" prefHeight="50.0" prefWidth="223.0" text="Calculate">
                <font>
                   <Font name="Arial" size="28.0" />
                </font>
