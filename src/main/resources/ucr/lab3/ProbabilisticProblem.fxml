@@ -10,13 +10,13 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ProbabilisticController">
+<BorderPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ProbabilisticController">
     <top>
-        <AnchorPane prefHeight="599.0" prefWidth="809.0" style="-fx-background-color: lightyellow;" BorderPane.alignment="CENTER">
+        <AnchorPane prefHeight="701.0" prefWidth="714.0" style="-fx-background-color: lightyellow;" BorderPane.alignment="CENTER">
             <children>
-                <Pane layoutX="19.0" prefHeight="72.0" prefWidth="818.0" style="-fx-background-color: orange;">
+                <Pane layoutX="-1.0" prefHeight="86.0" prefWidth="830.0" style="-fx-background-color: orange;">
                     <children>
-                        <Text layoutX="253.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Probabilistic Algorithms" wrappingWidth="328.27783203125">
+                        <Text layoutX="248.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Probabilistic Algorithms" wrappingWidth="328.27783203125">
                             <font>
                                 <Font name="Arial" size="31.0" />
                             </font>
