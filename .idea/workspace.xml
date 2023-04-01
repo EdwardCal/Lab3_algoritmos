@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="-Se completan todos los metodos de vector">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/VectorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/VectorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/VectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/VectorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="-Se completan todos los metodos de vectorE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,6 +180,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="I.S.2023.APA.IF-3001.021-Lab3" />
     <MESSAGE value="-Se completan todos los metodos de vector" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Se completan todos los metodos de vector" />
+    <MESSAGE value="-Se completan todos los metodos de vectorE" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Se completan todos los metodos de vectorE" />
   </component>
 </project>
