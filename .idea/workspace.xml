@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/DynamicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DynamicController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ucr/lab3/DynamicProblem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ucr/lab3/DynamicProblem.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/DynamicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/DynamicTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680138805008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fibonacci y Factorial">
+      <created>1680298165442</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680298165442</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +171,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="I.S.2023.APA.IF-3001.021-Lab3" />
-    <option name="LAST_COMMIT_MESSAGE" value="I.S.2023.APA.IF-3001.021-Lab3" />
+    <MESSAGE value="Fibonacci y Factorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fibonacci y Factorial" />
   </component>
 </project>
