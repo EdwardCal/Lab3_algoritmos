@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="-Se completan todos los metodos de vector" />
+    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="-Se completan todos los metodos de vector">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/VectorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/VectorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/VectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/VectorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +151,7 @@
       <updated>1680131042989</updated>
       <workItem from="1680284229481" duration="665000" />
       <workItem from="1680285016135" duration="5176000" />
-      <workItem from="1680316294802" duration="2983000" />
+      <workItem from="1680316294802" duration="2672000" />
     </task>
     <task id="LOCAL-00001" summary="I.S.2023.APA.IF-3001.021-Lab3">
       <created>1680133278015</created>
@@ -170,14 +174,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680138805008</updated>
     </task>
-    <task id="LOCAL-00004" summary="-Se completan todos los metodos de vector">
-      <created>1680319281663</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1680319281663</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

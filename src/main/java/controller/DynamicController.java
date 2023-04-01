@@ -13,7 +13,6 @@ public class DynamicController
     private TextField NumberNTF;
     @javafx.fxml.FXML
     private ChoiceBox choiceBox;
-
     Alert alert;
 
     @javafx.fxml.FXML
@@ -23,6 +22,7 @@ public class DynamicController
         choiceBox.getItems().add("Factorial");
         choiceBox.getItems().add("Fibonacci");
     }
+
     private boolean isValid() {
         return !this.NumberNTF.getText().isEmpty();
     }
@@ -38,15 +38,20 @@ public class DynamicController
         Dynamic dm = new Dynamic();
         String value = (String) choiceBox.getValue();
         int x=0;
-        if(isValid() && value=="Fibonacci"){
-            x=Integer.valueOf(this.NumberNTF.getText());
-            ResultTF.setText(String.valueOf(dm.fibonacci(x)));
-        } else if (isValid() && value=="Factorial") {
-            x=Integer.valueOf(this.NumberNTF.getText());
-            ResultTF.setText(String.valueOf(dm.factorial(x)));
+        if(isValid()){
+            if(value=="Fibonacci"){
+                x=Integer.valueOf(this.NumberNTF.getText());
+                ResultTF.setText(String.valueOf(dm.fibonacci(x)));
+            } else if ( value=="Factorial") {
+                x=Integer.valueOf(this.NumberNTF.getText());
+                ResultTF.setText(String.valueOf(dm.factorial(x)));
+            }
+
+        }else{
+            alert.setAlertType(Alert.AlertType.ERROR);
+            alert.setContentText("Please complete the info and try again...");
+            alert.showAndWait();
         }
-
-
     }
 
     public void ClearButtonOnAction(ActionEvent actionEvent) {
