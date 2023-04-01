@@ -1,6 +1,7 @@
 package util;
 
 import domain.Vector;
+import domain.VectorE;
 
 import java.text.DecimalFormat;
 import java.util.Random;
@@ -31,6 +32,12 @@ public class Utility {
     }
 
     public static void fill(Vector vector) {
+        int n = vector.getN();
+        for (int i = 0; i < n; i++) {
+            vector.add(random(99));
+        }
+    }
+    public static void fillE(VectorE vector) {
         int n = vector.getN();
         for (int i = 0; i < n; i++) {
             vector.add(random(99));
