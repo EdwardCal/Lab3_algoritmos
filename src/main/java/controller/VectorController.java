@@ -42,6 +42,7 @@ public class VectorController
     public void clearOnAction(ActionEvent actionEvent) {
         textArea.setText("");
         maxSizeTextField.setText("");
+        vector.clear();
     }
 
     public void fillShowOnAction(ActionEvent actionEvent) {

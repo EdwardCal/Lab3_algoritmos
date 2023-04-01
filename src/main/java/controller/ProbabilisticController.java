@@ -51,6 +51,10 @@ public class ProbabilisticController
         if(isValid() && value=="Birthday Paradox"){
             x=Integer.valueOf(this.NumberNTF.getText());
             ResultTA.setText("Birthday Paradox Probability for " + x + " persons is: \n\n" + util.Utility.format(probabilistic.birthdayProbability(x))+"%");
+        }else {
+            alert.setAlertType(Alert.AlertType.ERROR);
+            alert.setContentText("Please complete the info and try again...");
+            alert.showAndWait();
         }
     }
 }

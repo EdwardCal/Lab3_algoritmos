@@ -1,6 +1,7 @@
 package util;
 
 import domain.Vector;
+import domain.VectorE;
 
 import java.text.DecimalFormat;
 import java.util.Random;
@@ -34,6 +35,20 @@ public class Utility {
         int n = vector.getN();
         for (int i = 0; i < n; i++) {
             vector.add(random(99));
+        }
+    }
+    public static void fillE(VectorE vector) {
+        int n = vector.getN();
+        for (int i = 0; i < n; i++) {
+            vector.add(random(99));
+        }
+    }
+    public static void fillCountries(VectorE vector) {
+        String[] countries = {"Costa Rica", "Panama", "Mexico", "Unite States", "Colombia", "Venezuela", "Cuba", "Belice","Japon", "China", "Corea", "Unite Kingdom", "Francia", "Marruecos", "Nigeria","Suecia"};
+        int countriesN = countries.length-1;
+        int n = vector.getN();
+        for (int i = 0; i < n; i++) {
+            vector.add(countries[random(countriesN )]);
         }
     }
 
