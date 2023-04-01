@@ -8,7 +8,7 @@ public class VectorETest {
     @Test
     public void testVector() {
         VectorE vector = new VectorE(50);
-        util.Utility.fillE(vector);
+        util.Utility.fillCountries(vector);
         vector.sort();
         System.out.println("\nSORTED VECTOR..."+vector.toString());
         System.out.println("The vector has "+vector.size()+" elements");
@@ -18,7 +18,8 @@ public class VectorETest {
         );
         System.out.println(vector.contains(1));
         System.out.println("\nSORTED VECTOR..."+vector.toString());
-        vector.add(1);
+        vector.remove("Corea");
+        vector.add("Nigeria");
         System.out.println(vector.toString());
     }
 }
