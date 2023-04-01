@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProbabilisticController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Probabilistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ucr/lab3/ProbabilisticProblem.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domain/ProbabilisticTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DynamicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DynamicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ucr/lab3/DynamicProblem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ucr/lab3/DynamicProblem.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/DynamicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/DynamicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="TestNG Test Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -35,6 +38,14 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2NhzL4mOXj743KtV8nAeGjaMXye" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">

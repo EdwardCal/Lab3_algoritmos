@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ProbabilisticController">
+    <top>
+        <AnchorPane prefHeight="599.0" prefWidth="809.0" style="-fx-background-color: lightyellow;" BorderPane.alignment="CENTER">
+            <children>
+                <Pane layoutX="19.0" prefHeight="72.0" prefWidth="818.0" style="-fx-background-color: orange;">
+                    <children>
+                        <Text layoutX="253.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Probabilistic Algorithms" wrappingWidth="328.27783203125">
+                            <font>
+                                <Font name="Arial" size="31.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </Pane>
+                <TextField fx:id="NumberNTF" layoutX="384.0" layoutY="109.0" prefHeight="33.0" prefWidth="201.0">
+               <font>
+                  <Font size="18.0" />
+               </font></TextField>
+            <TextArea fx:id="ResultTA" layoutX="14.0" layoutY="270.0" prefHeight="190.0" prefWidth="816.0">
+               <font>
+                  <Font size="25.0" />
+               </font></TextArea>
+                <ChoiceBox fx:id="choiceBox" layoutX="384.0" layoutY="168.0" prefHeight="57.0" prefWidth="302.0" />
+                <Text layoutX="140.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How many persons?" wrappingWidth="216.53515625">
+                    <font>
+                        <Font name="Arial" size="22.0" />
+                    </font>
+                </Text>
+                <Text layoutX="140.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select the algorithm:">
+                    <font>
+                        <Font name="Arial" size="22.0" />
+                    </font>
+                </Text>
+                <Text layoutX="140.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Result:">
+                    <font>
+                        <Font name="Arial" size="22.0" />
+                    </font>
+                </Text>
+                <Button layoutX="534.0" layoutY="479.0" mnemonicParsing="false" onAction="#ClearButtonOnAction" prefHeight="50.0" prefWidth="233.0" text="Clear">
+                    <font>
+                        <Font name="Arial" size="28.0" />
+                    </font>
+                </Button>
+                <Button layoutX="81.0" layoutY="479.0" mnemonicParsing="false" onAction="#CalculateButtonOnAction" prefHeight="50.0" prefWidth="223.0" text="Calculate">
+                    <font>
+                        <Font name="Arial" size="28.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+    </top>
+</BorderPane>

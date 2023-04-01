@@ -51,7 +51,7 @@ public class HelloController {
 
     @FXML
     void probabilisticOnAction(ActionEvent event) {
-        loadPage("probabilistic.fxml");
+        loadPage("ProbabilisticProblem.fxml");
     }
 
     @FXML
