@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="-Se completan todos los metodos de vectorE" />
+    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="I.S.2023.APA.IF-3001.021-Lab3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/DivideAndConquerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ucr/lab3/DivideAndConquerProblem.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DynamicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DynamicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProbabilisticController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ProbabilisticController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +23,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="TestNG Test Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -170,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680138805008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I.S.2023.APA.IF-3001.021-Lab3">
+      <created>1680322562906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680322562906</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,9 +193,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I.S.2023.APA.IF-3001.021-Lab3" />
     <MESSAGE value="-Se completan todos los metodos de vector" />
     <MESSAGE value="-Se completan todos los metodos de vectorE" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Se completan todos los metodos de vectorE" />
+    <MESSAGE value="I.S.2023.APA.IF-3001.021-Lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="I.S.2023.APA.IF-3001.021-Lab3" />
   </component>
 </project>

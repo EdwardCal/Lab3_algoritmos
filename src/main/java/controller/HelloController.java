@@ -41,7 +41,7 @@ public class HelloController {
 
     @FXML
     void divideAndConquerOnAction(ActionEvent event) {
-        loadPage("divideAndConquer.fxml");
+        loadPage("DivideAndConquerProblem.fxml");
     }
 
     @FXML
