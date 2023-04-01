@@ -51,18 +51,32 @@ public class Vector implements VectorList{
 
     @Override
     public boolean remove(Object element) {
-        return true;
+        int i = -1;
+        while(i++ < data.length-1){
+            if(element.equals(String.valueOf(data[i]))){
+                int n = data.length-2;
+                int j = i-1;
+                while(j++ < n) {
+                    data[j] = data[j+1];
+                }
+                this.counter--;
+                return true;
+            }
+        }
+        return false;
     }
 
     @Override
     public Object remove(int index) {
         int n = data.length-2;
         int i = index;
+        int removed = data[index];
+        data[i] = data[i+1];
         while(i++ < n) {
             data[i] = data[i+1];
         }
         this.counter--;
-        return data[index];
+        return removed;
     }
 
     @Override
