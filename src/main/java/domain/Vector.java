@@ -1,5 +1,8 @@
 package domain;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Vector implements VectorList{
     private int n; //tamaño máximo del vector
     private int data []; //array de elementos tipo enteros
@@ -137,5 +140,16 @@ public class Vector implements VectorList{
             }
         }
         return result;
+    }
+
+    public List<Integer> getList()
+    {
+        List<Integer> list = new ArrayList<>();
+
+        for (int i : data) {
+            list.add(i);
+        }
+
+        return list;
     }
 }

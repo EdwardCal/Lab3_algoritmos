@@ -23,6 +23,21 @@ public class DivideAndConquerTest {
                     ?"java.util.Arrays BS...The element ["+value+"] exists at position "+indexArrays
                     :"java.util.Arrays BS...The element ["+value+"] does not exist in vector"
             );
+            int indexArraysCollection = java.util.Collections.binarySearch(vector.getList(), value);
+            System.out.println(indexArraysCollection >=0
+                    ?"java.util.Collection BS...The element ["+value+"] exists at position "+indexArraysCollection
+                    :"java.util.Collection BS...The element ["+value+"] does not exist in vector"
+            );
+            int indexArraysDomain = domain.DivideAndConquer.binarySearch(vector.getData(), value);
+            System.out.println(indexArraysDomain >=0
+                    ?"ITERATIVE BS...The element ["+value+"] exists at position "+indexArraysDomain
+                    :"ITERATIVE BS...The element ["+value+"] does not exist in vector"
+            );
+            int indexArraysDomainRecursive = domain.DivideAndConquer.binarySearch(vector.getData(), value,0,50);
+            System.out.println(indexArraysDomainRecursive >=0
+                    ?"RECURSIVE BS...The element ["+value+"] exists at position "+indexArraysDomainRecursive
+                    :"RECURSIVE BS...The element ["+value+"] does not exist in vector"
+            );
 
         }
     }

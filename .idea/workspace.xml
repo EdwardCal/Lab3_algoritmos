@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DynamicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DynamicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ucr/lab3/DynamicProblem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ucr/lab3/DynamicProblem.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/DynamicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/DynamicTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="-Se completan todos los metodos de vectorE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,6 +94,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VectorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.VectorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VectorTest.testVector" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="lab3" />
       <extension name="coverage">
@@ -120,6 +132,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="TestNG.VectorTest" />
         <item itemvalue="TestNG.VectorTest.testVector" />
       </list>
     </recent_temporary>
@@ -134,6 +147,7 @@
       <updated>1680131042989</updated>
       <workItem from="1680284229481" duration="665000" />
       <workItem from="1680285016135" duration="5176000" />
+      <workItem from="1680316294802" duration="2672000" />
     </task>
     <task id="LOCAL-00001" summary="I.S.2023.APA.IF-3001.021-Lab3">
       <created>1680133278015</created>
@@ -165,6 +179,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="I.S.2023.APA.IF-3001.021-Lab3" />
-    <option name="LAST_COMMIT_MESSAGE" value="I.S.2023.APA.IF-3001.021-Lab3" />
+    <MESSAGE value="-Se completan todos los metodos de vector" />
+    <MESSAGE value="-Se completan todos los metodos de vectorE" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Se completan todos los metodos de vectorE" />
   </component>
 </project>
