@@ -19,5 +19,7 @@ public class VectorTest {
         );
         System.out.println(vector.contains(1));
         System.out.println("\nSORTED VECTOR..."+vector.toString());
+        vector.add(1);
+        System.out.println(vector.toString());
     }
 }

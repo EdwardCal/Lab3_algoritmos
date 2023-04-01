@@ -70,11 +70,13 @@ public class Vector implements VectorList{
     public Object remove(int index) {
         int n = data.length-2;
         int i = index;
+        int removed = data[index];
+        data[i] = data[i+1];
         while(i++ < n) {
             data[i] = data[i+1];
         }
         this.counter--;
-        return data[index];
+        return removed;
     }
 
     @Override

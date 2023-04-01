@@ -58,18 +58,45 @@ public class VectorController
     }
 
     public void addValueOnAction(ActionEvent actionEvent) {
+        TextInputDialog dialog = new TextInputDialog("Enter the element to add");
+        Optional<String> result = dialog.showAndWait();
+        if((result.isPresent())&&(result.get().compareTo("")!=0)) {
+            vector.add(Integer.parseInt(result.get()));
+            textArea.setText(textArea.getText()+vector.toString());
+        }
     }
 
     public void addIndexOnAction(ActionEvent actionEvent) {
+        TextInputDialog dialog = new TextInputDialog("Enter the index of the element to change and the element you want to add");
+        Optional<String> result = dialog.showAndWait();
+        String resultSplit[]= result.get().split(",");
+        if((result.isPresent())&&(result.get().compareTo("")!=0)) {
+            vector.add(Integer.parseInt(resultSplit[0]), Integer.parseInt(resultSplit[1]));
+            textArea.setText(textArea.getText()+vector.toString());
+        }
     }
 
     public void sizeOnAction(ActionEvent actionEvent) {
+        textArea.setText(textArea.getText()+"\n======Size====== \n"+vector.size());
     }
 
     public void removeValueOnAction(ActionEvent actionEvent) {
+
+        TextInputDialog dialog = new TextInputDialog("Enter the value to remove");
+        Optional<String> result = dialog.showAndWait();
+        if((result.isPresent())&&(result.get().compareTo("")!=0)) {
+            ;
+            textArea.setText(textArea.getText()+"\n=======Remove Value=======\n"+vector.remove(result.get())+vector.toString());
+        }
     }
 
     public void removeIndexOnAction(ActionEvent actionEvent) {
+        TextInputDialog dialog = new TextInputDialog("Enter the element to remove");
+        Optional<String> result = dialog.showAndWait();
+        if((result.isPresent())&&(result.get().compareTo("")!=0)) {
+            ;
+            textArea.setText(textArea.getText()+"\n======Remove Index=======\n"+vector.remove(Integer.parseInt(result.get()))+vector.toString());
+        }
     }
 
     public void containsOnAction(ActionEvent actionEvent) {
