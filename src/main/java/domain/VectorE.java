@@ -29,6 +29,11 @@ public class VectorE<E> implements VectorList{
 
     @Override
     public boolean contains(Object element) {
+        for (int i = 0; i < counter; i++) {
+            if(util.Utility.compare(data[i],(E)element)==0){
+                return true;
+            }
+        }
         return false;
     }
 
@@ -46,12 +51,32 @@ public class VectorE<E> implements VectorList{
 
     @Override
     public boolean remove(Object element) {
+        int i = -1;
+        while(i++ < data.length-1){
+            if(util.Utility.compare((E)element,data[i])==0){
+                int n = data.length-2;
+                int j = i-1;
+                while(j++ < n) {
+                    data[j] = data[j+1];
+                }
+                this.counter--;
+                return true;
+            }
+        }
         return false;
     }
 
     @Override
     public Object remove(int index) {
-        return null;
+        int n = data.length-2;
+        int i = index;
+        E removed = data[index];
+        data[i] = data[i+1];
+        while(i++ < n) {
+            data[i] = data[i+1];
+        }
+        this.counter--;
+        return removed;
     }
 
     @Override
@@ -74,12 +99,17 @@ public class VectorE<E> implements VectorList{
 
     @Override
     public int indexOf(Object element) {
+        for (int i = 0; i < counter; i++) {
+            if(util.Utility.compare(data[i],(E)element)==0){
+                return i;
+            }
+        }
         return 0;
     }
 
     @Override
     public Object get(int index) {
-        return null;
+        return data[index];
     }
 
     public int getN() {
