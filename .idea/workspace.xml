@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="-Se completan todos los metodos de vectorE" />
+    <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="-Se completan todos los metodos de vectorE">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/DivideAndConquerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/DivideAndConquerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +71,7 @@
       <recent name="domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloApplication">
+  <component name="RunManager" selected="TestNG.DivideAndConquerTest.testBinarySearch">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ucr.lab3.HelloApplication" />
       <module name="lab3" />
@@ -90,6 +94,24 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="Laboratory3" />
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivideAndConquerTest.testBinarySearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.DivideAndConquerTest" />
+      <option name="METHOD_NAME" value="testBinarySearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DivideAndConquerTest.testBinarySearch" />
         <item itemvalue="Application.HelloApplication" />
         <item itemvalue="TestNG.VectorTest" />
         <item itemvalue="TestNG.VectorTest.testVector" />
@@ -170,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680138805008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-Se completan todos los metodos de vectorE">
+      <created>1680319959900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680319959900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
