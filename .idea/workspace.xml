@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0fc2801d-6ee8-42ba-9f2a-71fec9b968d2" name="Changes" comment="-Algunos metodos de test vectorE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/domain/VectorETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/VectorETest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/VectorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/VectorController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <recent name="domain" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VectorETest.testVector">
+  <component name="RunManager" selected="Application.HelloApplication">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ucr.lab3.HelloApplication" />
       <module name="lab3" />
@@ -171,9 +170,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloApplication" />
         <item itemvalue="TestNG.VectorETest.testVector" />
         <item itemvalue="TestNG.DivideAndConquerTest.testBinarySearch" />
-        <item itemvalue="Application.HelloApplication" />
         <item itemvalue="TestNG.VectorTest" />
         <item itemvalue="TestNG.VectorTest.testVector" />
       </list>
@@ -219,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680319959900</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="-Algunos metodos de test vectorE">
+      <created>1680324103143</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680324103143</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
