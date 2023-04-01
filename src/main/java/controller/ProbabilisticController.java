@@ -42,6 +42,7 @@ public class ProbabilisticController
     public void ClearButtonOnAction(ActionEvent actionEvent) {
         ResultTA.setText("");
         NumberNTF.setText("");
+        choiceBox.getItems().clear();
     }
 
     public void CalculateButtonOnAction(ActionEvent actionEvent) {
