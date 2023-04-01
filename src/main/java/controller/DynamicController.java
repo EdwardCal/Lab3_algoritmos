@@ -57,6 +57,7 @@ public class DynamicController
     public void ClearButtonOnAction(ActionEvent actionEvent) {
         ResultTF.setText("");
         NumberNTF.setText("");
+        choiceBox.getItems().clear();
     }
 
 
